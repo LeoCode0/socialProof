@@ -1,0 +1,118 @@
+:root {
+  --very-dark: hsl(300, 43%, 22%);
+  --soft-pink: hsl(333, 80%, 67%);
+  --dark-grayish: hsl(303, 10%, 53%);
+  --light-grayish: hsl(300, 24%, 96%);
+  --white: hsl(0, 0%, 100%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Spartan", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.product {
+  display: block;
+  margin: 20px auto;
+  width: 95%;
+}
+
+.product__info {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto 20px;
+}
+
+.product__title {
+  font-size: 2.6rem;
+  width: 70%;
+  margin: 20px auto;
+  color: var(--very-dark);
+  font-weight: 600;
+  text-align: center;
+}
+
+.product__description {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.product__rewards {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.rewards__item {
+  background-color: var(--light-grayish);
+  width: 90%;
+  padding: 20px;
+  text-align: center;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+.rewards__item p {
+  margin: 10px 0 0 0;
+  font-weight: 600;
+  color: var(--very-dark);
+  font-size: 1.4rem;
+}
+
+.rewards__item svg {
+  margin: 0 2px;
+}
+
+.product__reviews {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.product__review {
+  color: var(--white);
+  font-size: 1.4rem;
+  background-color: var(--very-dark);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.review__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.review__body {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.review__body p {
+  line-height: 22px;
+}
+
+.product__review img {
+  height: 46px;
+  width: 46px;
+  border-radius: 50%;
+  margin-right: 25px;
+}
+
+.verified {
+  color: var(--soft-pink);
+}
