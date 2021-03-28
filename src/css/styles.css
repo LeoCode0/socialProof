@@ -111,6 +111,7 @@ main {
 
 .review__body p {
   line-height: 22px;
+  width: 90%;
 }
 
 .product__review img {
@@ -120,8 +121,13 @@ main {
   margin-right: 25px;
 }
 
+.name {
+  font-weight: 600;
+}
+
 .verified {
   color: var(--soft-pink);
+  margin-top: 5px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -173,7 +179,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 430px;
+    width: 500px;
   }
 
   .rewards__item.second {
@@ -185,7 +191,6 @@ main {
 
   .product__reviews {
     display: flex;
-    justify-content: space-between;
     width: 100%;
     margin-top: 40px;
   }
@@ -193,6 +198,7 @@ main {
   .product__review {
     margin: 0 10px;
     height: 210px;
+    width: 385px;
   }
 
   .product__review.second {
